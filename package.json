@@ -1,7 +1,7 @@
 {
 	"name": "robotframework",
-	"displayName": "robotframework-vscode",
-	"description": "Robot Framework .robot file editing",
+	"displayName": "robotframework",
+	"description": "Robot Framework .robot file coloring",
 	"version": "0.0.1",
 	"publisher": "vivainio",
 	"engines": {
