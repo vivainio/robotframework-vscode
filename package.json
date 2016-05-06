@@ -1,0 +1,26 @@
+{
+	"name": "robotframework",
+	"displayName": "robotframework-vscode",
+	"description": "Robot Framework .robot file editing",
+	"version": "0.0.1",
+	"publisher": "vivainio",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "robot",
+			"aliases": ["robotframework", "robotframework"],
+			"extensions": [".robot"],
+			"configuration": "./robotframework.configuration.json"
+		}],
+		"grammars": [{
+			"language": "robot",
+			"scopeName": "text.robot",
+			"path": "./syntaxes/robot.tmLanguage"
+		}]
+	}
+}
