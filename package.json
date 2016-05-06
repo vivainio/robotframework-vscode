@@ -2,7 +2,7 @@
 	"name": "robotframework",
 	"displayName": "robotframework",
 	"description": "Robot Framework .robot file coloring",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"publisher": "vivainio",
 	"engines": {
 		"vscode": "^0.10.6"
@@ -13,7 +13,7 @@
 	"contributes": {
 		"languages": [{
 			"id": "robot",
-			"aliases": ["robotframework", "robotframework"],
+			"aliases": ["robotframework"],
 			"extensions": [".robot"],
 			"configuration": "./robotframework.configuration.json"
 		}],
