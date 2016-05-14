@@ -4,11 +4,10 @@
 <dict>
 	<key>comment</key>
 	<string>
-	Robot Framework syntax highlighting for txt format.	
+	Robot Framework syntax highlighting for txt format.
 	</string>
 	<key>fileTypes</key>
 	<array>
-		<string>txt</string>
 		<string>robot</string>
 	</array>
 	<key>keyEquivalent</key>
@@ -33,7 +32,7 @@
 			<key>match</key>
 			<string>(\$\{.*?\})|(@\{.*?\})</string>
 			<key>name</key>
-			<string>variable.language.robot</string>
+			<string>storage.type.method.robot</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -55,6 +54,6 @@
 	<key>scopeName</key>
 	<string>text.robot</string>
 	<key>uuid</key>
-	<string>E54BFAB1-E5A0-4524-9FFC-FC08B20F21E4</string>
+	<string>816657c6-3f21-4ea2-95fc-14dfed6f76bc</string>
 </dict>
 </plist>
