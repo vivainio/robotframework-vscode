@@ -2,7 +2,7 @@
 	"name": "robotframework",
 	"displayName": "robotframework",
 	"description": "Robot Framework .robot file coloring",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "vivainio",
 	"engines": {
 		"vscode": "^0.10.6"
