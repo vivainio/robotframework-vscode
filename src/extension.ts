@@ -43,7 +43,7 @@ function findDocFiles(dirs: string[], fnames: string[]) {
 
 function getPythonPath() {
 	const env: string = process.env.PYTHONPATH;
-	const parts = env.split(";");
+	const parts = env.split(path.delimiter);
 	return parts;
 }
 
@@ -72,9 +72,7 @@ export function activate(context: vscode.ExtensionContext) {
 				const pos = new vscode.Position (editor.selection.active.line, editor.selection.active.character);
 				editBuilder.insert(pos, selected);
 			});
-
 		});
-
 	});
 
 	context.subscriptions.push(disposable);
