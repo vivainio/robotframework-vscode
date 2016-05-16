@@ -1,8 +1,8 @@
 {
 	"name": "robotframework",
 	"displayName": "robotframework",
-	"description": "Robot Framework .robot file coloring",
-	"version": "0.0.4",
+	"description": "Robot Framework support",
+	"version": "0.0.1",
 	"publisher": "vivainio",
 	"engines": {
 		"vscode": "^0.10.6"
@@ -10,7 +10,16 @@
 	"categories": [
 		"Languages"
 	],
+	"activationEvents": [
+		"onCommand:extension.searchRobotKeyword"
+	],
+	"main": "./out/src/extension",
 	"contributes": {
+		"commands": [{
+			"command": "extension.searchRobotKeyword",
+			"title": "Robot: Search Keyword"
+		}],
+
 		"languages": [{
 			"id": "robot",
 			"aliases": ["robotframework"],
@@ -22,5 +31,14 @@
 			"scopeName": "text.robot",
 			"path": "./syntaxes/robot.tmLanguage"
 		}]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.7.5",
+		"vscode": "^0.11.0"
 	}
 }
