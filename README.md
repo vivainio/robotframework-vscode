@@ -22,7 +22,7 @@ Library    Bar
 
 ...keyword search will look for files Foo.xml and Bar.xml within the PYTHONPATH (same mechanism as used by RIDE).
 
-Installation: install from Visual Studio Code marketplace, name of the extensions is `robotframework`.
+Installation: install from Visual Studio Code marketplace, name of the extension is `robotframework`.
 
 Author: Ville M. Vainio <vivainio@gmail.com>
 
