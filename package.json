@@ -4,6 +4,7 @@
 	"description": "Robot Framework support",
 	"version": "0.1.0",
 	"publisher": "vivainio",
+	"icon": "images/robotframework.png",
 	"engines": {
 		"vscode": "^0.10.6"
 	},
