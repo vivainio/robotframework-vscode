@@ -5,6 +5,7 @@
 	"version": "0.1.0",
 	"publisher": "vivainio",
 	"icon": "images/robotframework.png",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^0.10.6"
 	},

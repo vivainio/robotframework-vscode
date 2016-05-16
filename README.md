@@ -8,6 +8,7 @@ Supported features are:
 - Command 'Robot: Search Keyword'
 
 Syntax highlighting is self-explanatory, and only supports files with extension `.robot`.
+It's based on [TextMate bundle](https://bitbucket.org/jussimalinen/robot.tmbundle/wiki/Home) by Jussi Malinen.
 
 Keyword Search requires you to generate the documentation xml files for the libraries you are using,
 with [liboc](http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#libdoc).
@@ -21,3 +22,6 @@ Library    Bar
 
 ...keyword search will look for files Foo.xml and Bar.xml within the PYTHONPATH (same mechanism as used by RIDE).
 
+Author: Ville M. Vainio <vivainio@gmail.com>
+
+License: MIT
