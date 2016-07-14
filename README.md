@@ -13,6 +13,8 @@ It's based on [TextMate bundle](https://bitbucket.org/jussimalinen/robot.tmbundl
 Keyword Search requires you to generate the documentation xml files for the libraries you are using,
 with [libdoc](http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#libdoc).
 
+You can copy the xml files for a selection of standard libraries from [robotframework-libdocs project](https://github.com/vivainio/robotframework-libdocs), if you don't want to generate them yourself.
+
 If the .robot file you are editing has these libary references:
 
 ```
